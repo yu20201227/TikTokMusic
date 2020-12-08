@@ -78,6 +78,9 @@
 		EB4688BA257F77C300092D6D /* TikTokMusic */ = {
 			isa = PBXGroup;
 			children = (
+				EBA37431257F7CD7000F0983 /* View */,
+				EBA37430257F7CD1000F0983 /* Model */,
+				EBA3742F257F7CCA000F0983 /* Controller */,
 				EB4688BB257F77C300092D6D /* AppDelegate.swift */,
 				EB4688BD257F77C300092D6D /* SceneDelegate.swift */,
 				EB4688C1257F77C300092D6D /* Main.storyboard */,
@@ -86,6 +89,27 @@
 				EB4688C9257F77C500092D6D /* Info.plist */,
 			);
 			path = TikTokMusic;
+			sourceTree = "<group>";
+		};
+		EBA3742F257F7CCA000F0983 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBA37430257F7CD1000F0983 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBA37431257F7CD7000F0983 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
