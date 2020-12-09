@@ -14,6 +14,7 @@
 		EB4688C5257F77C500092D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4688C4257F77C500092D6D /* Assets.xcassets */; };
 		EB4688C8257F77C500092D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4688C6257F77C500092D6D /* LaunchScreen.storyboard */; };
 		EB68B357257F92BC007D0DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB68B356257F92BC007D0DA9 /* ViewController.swift */; };
+		EB68B35A25808B72007D0DA9 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB68B35925808B72007D0DA9 /* SetUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EB4688C7257F77C500092D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4688C9257F77C500092D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB68B356257F92BC007D0DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB68B35925808B72007D0DA9 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
 		ED822A26738EA4E8257FEBD6 /* Pods_TikTokMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTokMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		EB4688BA257F77C300092D6D /* TikTokMusic */ = {
 			isa = PBXGroup;
 			children = (
+				EB68B35D25808CCB007D0DA9 /* Util */,
 				EBA37431257F7CD7000F0983 /* View */,
 				EBA37430257F7CD1000F0983 /* Model */,
 				EBA3742F257F7CCA000F0983 /* Controller */,
@@ -88,12 +91,20 @@
 			path = TikTokMusic;
 			sourceTree = "<group>";
 		};
+		EB68B35D25808CCB007D0DA9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		EBA3742F257F7CCA000F0983 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				EB4688BB257F77C300092D6D /* AppDelegate.swift */,
 				EB4688BD257F77C300092D6D /* SceneDelegate.swift */,
 				EB68B356257F92BC007D0DA9 /* ViewController.swift */,
+				EB68B35925808B72007D0DA9 /* SetUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB68B35A25808B72007D0DA9 /* SetUpViewController.swift in Sources */,
 				EB68B357257F92BC007D0DA9 /* ViewController.swift in Sources */,
 				EB4688BC257F77C300092D6D /* AppDelegate.swift in Sources */,
 				EB4688BE257F77C300092D6D /* SceneDelegate.swift in Sources */,
