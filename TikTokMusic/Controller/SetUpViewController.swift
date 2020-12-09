@@ -12,7 +12,7 @@ import MobileCoreServices
 
 class SetUpViewController: SwiftyCamViewController, SwiftyCamViewControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     
-    @IBOutlet weak var captureButton:SwiftyRecordButton!
+   // @IBOutlet weak var captureButton:SwiftyRecordButton!
     @IBOutlet weak var flipCameraButton:UIButton!
     
 
